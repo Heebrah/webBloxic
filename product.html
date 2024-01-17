@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="stylesheet" href="./Assets/css/Homepage.css">
+    <style>
+
+.flex1{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid whitesmoke;
+     background-color:white;
+
+ 
+   
+}
+.top-bioxic{
+    display: flex;
+    align-items: center;
+   
+}
+.Bioxic-img{
+    width: 30px;
+    height: 100%;
+}
+.menu-bar ul li{
+    display: inline;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+body{
+    margin-top: 90px;
+   
+}
+.margin{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+        .container{
+            display: flex;
+            justify-content: center;
+                
+        }
+        h2{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .armchair-div{
+            background-color: rgb(252, 249, 245);
+            display: flex;
+            align-items: center;
+            width: 600px;
+            margin-right: 20px;
+        }
+    
+        .item{
+            width: 400px;
+            height: 250px ;
+            border: 1px  grey;
+            margin: 0;
+            
+        }
+        .pd{
+            width: 100px;
+            display: grid;
+   
+
+        }
+        .star-rating {
+          font-size: 22px;
+          color: gold; /* Default color for filled stars */
+        }
+        .review{
+            color: black;
+            font-size: 15px;
+        }
+        div .pr{
+            border: 1px solid black;
+        }
+        .product-info{
+            justify-content: space-between;
+            margin-left: 50px;
+        }
+        
+
+        .AD{
+            height: 40px;
+            width: 120px;
+            border: 1px solid;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        button{
+            background-color: rgb(233, 220, 220);
+            border: 1px solid;
+            border-color: white;
+            width: 60px;
+            height: 40px;
+        }
+       
+        .PD button{
+            height: 50px;
+            width: 190px;
+            background-color: white;
+            border-color: rgb(233, 220, 220);
+            justify-content: space-between;
+            display: inline;
+            margin-left: 20px;
+            
+
+        }
+        .PD .PD-F{
+            background-color: black;
+            color: white;
+
+        }
+        .adress-div{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex1">
+        <div class="Bioxic"><img src="./images/bloxic-img.png" alt=""></div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li>About</li>
+                <li><a href="./Homeshow.html/login.html">shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="tel:+2349027808621">contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="margin">
+        <div class="container">
+            <div class="armchair-div"><img class="item" src="./images/chair-pic.png" alt=""></div>
+            <div class="p">
+                <img class="pd" src="./images/lamb.webp" alt="">
+                <img class="pd" src="./images/download (11).jpg" alt="">
+                <img class="pd" src="./images/images (14).jpg" alt="">
+                <img class="pd" src="./images/images (17).jpg" alt="">
+            </div>
+            <div class="product-info">
+                <h2>Accesories Lather Shoes</h2>
+                <div class="star-rating" data-rating="4">
+                    &#9733; <!-- Filled star -->
+                    &#9733;
+                    &#9733;
+                    &#9733;
+                    &#9734; <!-- Empty star -->
+                    <b class="review">(4 customer review)</b>
+                </div><br>
+                <div>
+                    <b>$16.00</b> <del>$32.00</del> <button class="pr">-34%</button>
+                </div><br>
+                <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, deserunt? Quisquam deleniti explicabo dicta nemo.</i>
+                <br><br>
+                <div class="Mo"><b>Model:</b>
+                    <button>TYK</button>
+                    <button>FFD2</button>
+                    <button>2JTT</button>
+                    <button>8454</button>
+                    <button>45HY</button>
+                </div><br>
+                <div>
+                    <b>Categories:</b>All, featured, medical, Covid 19 mask
+                </div><br>
+                <div>
+                    <b>Tags:</b> Black, Brown, Red, Shoes  &#163;0.00-&#163;150.00
+                </div><br>
+                <div>
+                    <b>Share:</b> <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+                    <iconify-icon icon="mdi:twitter"></iconify-icon>
+                    <iconify-icon icon="mdi:instagram"></iconify-icon>
+                    <iconify-icon icon="ic:baseline-tiktok"></iconify-icon>
+                </div><br>
+                <div>
+                    <a href="productTable.html"><Button class="AD">ADD TO CART</Button></a>
+                         - <button> 1</button> +
+                </div>
+            </div>
+        </div><br><br>
+        <div class="PD">
+            <button class="PD-F">PRODUCT DETAILS</button>
+            <button>ADDITIONAL INFORMATION</button>
+            <button>REVIEW(02)</button>
+            <button>FAQ</button>
+         </div><br>
+         <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience is over the world visit</b>
+    </div>
+
+    <div class="footer">
+      
+        <div class="images-div">
+          <div><img class="footer-pics" src="./images/images (16).jpg" alt=""></div>
+          <div><img class="footer-pics" src="./images/images (17).jpg" alt=""></div>
+          <div><img class="footer-pics" src="./images/images (18).jpg" alt=""></div>
+          <div><img class="footer-pics" src="./images/download (2).jpg" alt=""></div>
+          <div><img class="footer-pics" src="./images/download (13).jpg" alt=""></div>
+          <div><img class="footer-pics" src="./images/download (1).jpg" alt=""></div>
+    
+        </div>
+    
+    
+        <div class="details-div">
+          <div>
+            <h1><img class="Bioxic-img" src="./images/BloxicLogo.JPG" alt="">Bioxic</h1>
+            <p>4517 Washington Ave, Manchester, Kentucky 39495 Washington Ave, Manchester</p>
+    
+            <div class="adress-div">
+              <p><img class="Bioxic-img" src="./images/addressHome-removebg-preview.png" alt=""></p><p>254 Lilian blvd, Holbrook</p>
+            </div>
+            <div class="adress-div">
+              <p><img class="Bioxic-img" src="./images/call_icon.png" alt=""></p><p>1-800-654-3210</p>
+            </div>
+          </div>
+          <div>
+            
+            <ul class="no-tag">
+                <li><h2>Find it Fast</h2></li>
+                <li><a href="">Laptops & Computer</a></li>
+                <li><a href="">Camera & Photography</a></li>
+                <li><a href="">Smart Phones & Tablet</a></li>
+                <li><a href="">Video Games & Consoles</a></li>
+                <li><a href="">TV & Audio</a></li>
+            </ul>
+          </div>
+            <div>
+                
+                <ul class="no-tag">
+                    <li><h2>Quick Links</h2></li>
+                    <li><a href="">Your Account</a></li>
+                    <li><a href="">Returns & Exchanges</a></li>
+                    <li><a href="">Return Center</a></li>
+                    <li><a href="">Purchase History</a></li>
+                    <li><a href="">App Download</a></li>
+                </ul>
+            </div>
+             <div>
+                <ul>
+                    <li><h2>Service us</h2></li>
+                    <li><a href="">Support Center</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Shopping</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+        </div>
+        
+          
+        </div>
+    
+        <div class="down-div">
+            (c) 2023. Powered by Theme. All right Reserved
+            <div class="message-div"><img class="message-img" src="./images/message.png" alt="">ibrahimola08@gmail.com</div>
+            <div class="cards-div"><img class="card-img" src="./images/mastercard.png" alt="">
+                    <img class="card-img" src="./images/visa.png" alt="">
+                    <img class="otherCard" src="./images/otherCard.png" alt="">
+                    <img class="card-img" src="./images/Paypal.png" alt="">
+              
+            
+            
+            
+            </div>
+        </div>
+        </div>
+    
+</body>
+</html>
